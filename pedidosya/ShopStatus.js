@@ -36,25 +36,23 @@ const notificationBadge =
 // Purpose:
 // Sometimes pedidosya closes shops temporarily for unknown intervals of time,
 // can be an hour, half an hour or few minutes. This tool automates checking
-// for the user when the shop is open again, no need to manually check.
+// when the shop is open again and notifying the user of it. You can rest
+// easy, this script will do the work for you.
 
 // This event is unpredictable, it may happen that it will close a shop while
-// you are looking at the menu or about to place an order. Reasons they do
+// you are looking at the menu or about to place an order. Reasons they do 
 // this may be because of the local weather, not enough people online
 // working for delivery and/or other mysterious reasons.
 
-// Since the shop can close while you are looking at the menu, it will also
-// check if it closes in the background.
+// This script will notify you when a shop closes and when it opens, as long
+// as you keep the tab open and pinned so it isn't suspended by the browser.
 
 // What this script do:
-// This script checks for a change of status. It recognizes that a shop can be
-// open or closed, so it is able to communicate that to the user through
-// notifications.
-
-// When the shop is open, it will check for the change of this satus and notify
-// the user of this. The difference the status makes is what it communicates to
-// the user. You'll only care to know if the status changed after you entered
-// the shop.
+// iT Checks the shop for a change of status. If it closes or opens,
+// it will notify you of the change:
+// - When the shop is open, it will check if the status has changed to close.
+// - When the shop is closed, it will check if the status has changed to open.
+// - When it detects a change in status, it will notify the user.
 
 // The script is stateless.
 
