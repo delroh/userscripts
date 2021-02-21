@@ -2,7 +2,7 @@
 // @name        Pedidosya check shop status - pedidosya.com.do
 // @icon        https://live.pystatic.com/webassets/favicon-8f0ea2519d2575076b739999329af939.ico
 // @namespace   Violentmonkey Scripts
-// @match       https://www.pedidosya.com.do/restaurantes/*
+// @match       https://www.pedidosya.com.do/restaurantes/*/*
 // @grant       none
 // @version     1.0
 // @author      -
