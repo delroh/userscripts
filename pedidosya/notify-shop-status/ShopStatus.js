@@ -139,6 +139,7 @@ function notify(title, opt = {}) {
   }
 }
 
+// Returns a JSON with the shop's data
 function parseShopObject(text) {
   const startStr = 'name="googleTrackRestaurantData" value="';
   const start = text.indexOf(startStr) + startStr.length;
