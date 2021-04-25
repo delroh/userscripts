@@ -32,7 +32,7 @@ addStyle(`
   z-index: 100;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  padding-top: 32px;
   background-color: rgba(255,255,255,0.93);
 }
 
@@ -86,8 +86,8 @@ addStyle(`
 
 #zzoom-modal__caption div:first-child {
   text-align: left;
-  width: 71%;
-  margin: 4px 40px 0 4px;
+  width: 70%;
+  margin: 4px 28px 0 4px;
 }
 
 #zzoom-modal__caption div {
